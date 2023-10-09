@@ -1,0 +1,158 @@
+*
+{
+    /* border: 1px solid black; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.navbar
+{
+    display: flex;
+    padding: 20px 20px;
+    justify-content: space-between;
+    font-size: 15px;
+    background: #004274;
+}
+.logo
+{
+    width: 30%;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.link
+{
+    width: 70%;
+}
+
+li
+{
+    display: inline;
+}
+.menu a
+{
+    color: #fff;
+    text-decoration: none;
+    padding: 40px 0;
+}
+.bars
+{
+    display: none;
+    cursor: pointer;
+}
+.bars:hover ul
+{
+    display: block;
+}
+.content
+{
+    background-image:  linear-gradient(rgba(18, 0, 83, 0.174), #023257),url(../images/miami-beach.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 200px;
+}
+.content1
+{
+    width: 800px;
+    text-align: center;
+    padding: 100px;
+    margin: 0 auto;
+    color: #fff;
+}
+.menu
+{
+    display: inline-block;
+    margin-right: 25px;
+}
+.x 
+{
+    position: relative;
+}
+
+.urv 
+{
+    position: absolute;
+    top: 65px;
+    left: 0px;
+    width: 400px;
+    background: #fff;
+    color: #000;
+    display: block;
+    z-index: 2;
+    display: none;
+    transition: 1s;
+}
+.dropdown 
+{
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    background: white;
+    display: block;
+    text-align: left;
+    line-height: 40px;
+    padding: 0 10px;
+}
+.dropdown a 
+{
+    color: #000;
+    text-decoration: none;
+}
+
+.x:hover .urv 
+{
+    display: block;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 50px;
+    background: transparent;
+    color: #fff;
+}
+button:hover 
+{
+    cursor: pointer;
+}
+.three-main
+{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background: #004274;
+    color: #fff;
+}
+.three-main div
+{
+    width: 25%;
+    padding: 60px;
+    transition: .3s,border .3s,border-radius .3s,box-shadow .3s 
+}
+.three-main a
+{
+    text-decoration: none;
+    color: skyblue;
+}
+.three-main h3,p,a
+{
+    padding: 20px;
+}
+.first:hover,.second:hover,.third:hover
+{
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px black;
+}
+.property1
+{
+    width: 850px;
+    text-align: center;
+    padding: 50px;
+    margin: 0 auto;
+}
+.property1 p
+{
+    color: gray;
+}

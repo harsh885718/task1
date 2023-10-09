@@ -1,0 +1,69 @@
+@media (max-width:500px) 
+    {
+        ul
+        {
+            display: none;
+            list-style: none;
+            width: 100%;
+        }
+        .navbar
+        {
+            position: relative;
+            background: #fff;
+            padding: 0;
+        }
+        .logo
+        {
+            width: 40%;
+            color: #004274;
+            padding-left: 20px;
+            /* margin-left: 20px; */
+        }
+        .content
+        {
+            padding: 200px 0;
+        }
+        .content1
+        {
+            width: 100%;
+            padding: 50px 10px;
+        }
+        .logo i
+        {
+            color: skyblue;
+        }
+        .class
+        {
+            display: block;
+        }
+        .bars
+        {
+            padding: 30px 20px;
+            display: block;
+        }
+        li
+        {
+            display: block;
+            border: 1px solid;
+            padding-left: 25px;
+        }
+        .menu
+        {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            text-align: center;
+        }
+        .three-main
+        {
+            display: block;
+        }
+        .three-main div
+        {
+            width: 100%;
+        }
+        .property1
+        {
+            width: 100%;
+        }
+    }
